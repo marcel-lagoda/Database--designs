@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.accounts</OriginalElement>
+  <nodes>
+    <node x="253.75" y="215.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders</node>
+    <node x="58.25" y="418.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders_details</node>
+    <node x="347.5" y="0.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.accounts</node>
+    <node x="0.0" y="191.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.products</node>
+    <node x="281.25" y="406.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.payments</node>
+    <node x="463.75" y="179.0">6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.agents</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders" target="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.accounts">
+      <point x="0.0" y="-52.5" />
+      <point x="348.75" y="154.0" />
+      <point x="402.25" y="154.0" />
+      <point x="-54.75" y="64.5" />
+    </edge>
+    <edge source="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders_details" target="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.products">
+      <point x="-50.75" y="-64.5" />
+      <point x="0.0" y="76.5" />
+    </edge>
+    <edge source="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.payments" target="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders">
+      <point x="0.0" y="-76.5" />
+      <point x="47.5" y="52.5" />
+    </edge>
+    <edge source="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.agents" target="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.accounts">
+      <point x="0.0" y="-88.5" />
+      <point x="565.25" y="154.0" />
+      <point x="511.75" y="154.0" />
+      <point x="54.75" y="64.5" />
+    </edge>
+    <edge source="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders_details" target="6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.orders">
+      <point x="50.75" y="-64.5" />
+      <point x="210.5" y="381.0" />
+      <point x="301.25" y="381.0" />
+      <point x="-47.5" y="52.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8842832469775475" x="333.5" y="279.5" />
+  <SelectedNodes>
+    <node>6dd7e00d-3211-46d8-a205-0306ff823c4f.TABLE:antheap.public.accounts</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+    <Category>Virtual foreign keys</Category>
+  </Categories>
+</Diagram>
+
